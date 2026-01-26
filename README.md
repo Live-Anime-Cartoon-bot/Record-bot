@@ -9,7 +9,6 @@ A bot to record live videos using its URL, e.g., IPTV, YouTube live stream, m3u8
 Follow these steps to run the bot:
 
 ### Step 1: Clone the repository
-git clone https://github.com/KSBOTSOFFICAL/Live-Recoder-Bot.git
 ### Step 2: Change into the repo directory
 cd Live-Recorder-Bot
 ### Step 3: Install the required packages
