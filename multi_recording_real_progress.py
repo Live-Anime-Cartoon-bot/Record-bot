@@ -4,7 +4,7 @@ import asyncio
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, InputFile
 from telegram.ext import ApplicationBuilder, CommandHandler, CallbackQueryHandler, ContextTypes
 
-OWNER_ID = 8191916199          # ← Replace with your Telegram ID
+OWNER_ID = 5856009289          # ← Replace with your Telegram ID
 BOT_TOKEN = "8191916199:AAEFX09zWpwrUQJkWW7Nme_z90rBTb8qA3Q"
 DOWNLOAD_DIR = "recordings"
 os.makedirs(DOWNLOAD_DIR, exist_ok=True)
