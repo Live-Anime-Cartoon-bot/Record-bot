@@ -1,5 +1,5 @@
-#KSBOTOFFICALS
-#DEVELOPER
+#OFFICALS
+#LS
 import os
 
 # Bot token from @botfather
