@@ -1,0 +1,9 @@
+pyrogram
+tgcrypto
+asyncio
+hachoir
+requests
+yt-dlp
+ffmpeg-python
+Flask
+pycryptodome
