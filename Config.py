@@ -5,8 +5,8 @@ import os
 # Bot token from @botfather
 BOT_TOKEN = ""
 # From my.telegram.org/
-API_ID = ""
-API_HASH =  ""
+API_ID = "29481626"
+API_HASH =  "4892185769903521077c4cea97808b8c"
 # For /log cmd
 OWNER_ID = [int(i) for i in os.environ.get("OWNER_ID", "969084369").split(" ")]
 # No time limit for this users
