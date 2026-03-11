@@ -3,7 +3,7 @@
 import os
 
 # Bot token from @botfather
-BOT_TOKEN = "8191916199:AAGy8oD5n4Zt9hoQcq4MMwrMDi50JOTldOU"
+BOT_TOKEN = "8619959255:AAHq2ekj90Mwx2cI6IdNd-b16JC86YTDMlM"
 
 # From my.telegram.org/
 API_ID = "29481626"
@@ -18,6 +18,6 @@ AUTH_USERS = [969084369, 2800583882]
 # Time gap after each request (in seconds) 
 TIME_GAP = 0
 
-BOT_USERNAME = 'LittlesinghamMovie_Bot'  # bot username without @
+BOT_USERNAME = 'M3u8LiveRecordingBot'  # bot username without @
 API_TOKEN = '65aa5be4d757fb7242fff9dde00f6cd5d4acc977' #don't change this without developer permission
 
