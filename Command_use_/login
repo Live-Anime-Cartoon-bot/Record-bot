@@ -1,0 +1,39 @@
+from aiogram import Bot, Dispatcher, types
+from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
+from aiogram.utils import executor
+
+# /login command
+@dp.message_handler(commands=['login'])
+async def login_menu(message: types.Message):
+    markup = ReplyKeyboardMarkup(resize_keyboard=True)
+
+    buttons = [
+        KeyboardButton("Tata Play"),
+        KeyboardButton("JioTV"),
+        KeyboardButton("Zee5"),
+        KeyboardButton("Airtel Xstream"),
+        KeyboardButton("Netflix"),
+        KeyboardButton("SonyLiv"),
+        KeyboardButton("Discovery+"),
+        KeyboardButton("JioHotstar"),
+        KeyboardButton("YUPPTV"),
+        KeyboardButton("Prime Video")
+    ]
+
+    markup.add(*buttons)
+
+    await message.answer("📺 Select Platform to Login:", reply_markup=markup)
+
+
+# phone number input (mock)
+@dp.message_handler()
+async def handle_text(message: types.Message):
+    if message.text.startswith("+91"):
+        await message.answer("📲 OTP sent! Enter OTP below:")
+    elif message.text.isdigit():
+        await message.answer("🔐 OTP verifying...\nLogin Successful ✅")
+    else:
+        await message.answer("Select /login to start.")
+
+if __name__ == "__main__":
+    executor.start_polling(dp, skip_updates=True)
