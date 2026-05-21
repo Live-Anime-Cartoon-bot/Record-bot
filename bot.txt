@@ -8,7 +8,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
 # -------- CONFIG --------
-TOKEN = "8294289381:AAEKHXoJvmuQbdLXBg_Q_MTs5Yrpx554RZQ"
+TOKEN = "8619959255:AAFM9xBgLouwUMizDlTASIFbcHoCqD6gmkU"
 OWNER_ID = 5856009289
 
 # Users store
