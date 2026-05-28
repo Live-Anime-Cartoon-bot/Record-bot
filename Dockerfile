@@ -1,4 +1,4 @@
-# 1. लेटेस्ट और बिल्कुल स्टेबल पाइथन इमेज (Debian Bookworm आधारित)
+# 1. लेटेस्ट और स्टेबल पाइथन इमेज
 FROM python:3.11-slim
 
 # 2. वर्किंग डायरेक्टरी सेट करें
@@ -8,7 +8,7 @@ WORKDIR /app
 COPY requirements.txt requirements.txt
 RUN pip3 install --no-cache-dir -r requirements.txt
 
-# 4. सिर्फ ffmpeg और git इंस्टॉल करें (ffprobe इसके साथ अपने आप आ जाएगा)
+# 4. सिर्फ मुख्य मीडिया टूल और गिट इंस्टॉल करना
 RUN apt-get update && \
     apt-get install -y --no-install-recommends ffmpeg git && \
     rm -rf /var/lib/apt/lists/*
