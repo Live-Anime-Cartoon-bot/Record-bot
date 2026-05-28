@@ -1,20 +1,20 @@
-# 1. बिल्कुल लेटेस्ट और स्टेबल पाइथन इमेज (Debian Bookworm पर आधारित)
+# 1. लेटेस्ट और बिल्कुल स्टेबल पाइथन इमेज (Debian Bookworm आधारित)
 FROM python:3.11-slim
 
 # 2. वर्किंग डायरेक्टरी सेट करें
 WORKDIR /app
 
-# 3.requirements.txt कॉपी करें और लाइब्रेरीज़ इंस्टॉल करें
+# 3. requirements.txt को कॉपी करें और लाइब्रेरीज़ इंस्टॉल करें
 COPY requirements.txt requirements.txt
 RUN pip3 install --no-cache-dir -r requirements.txt
 
-# 4. लेटेस्ट एक्टिव सर्वर से ffmpeg, ffprobe और git को बिना किसी एरर के इंस्टॉल करना
+# 4. सिर्फ ffmpeg और git इंस्टॉल करें (ffprobe इसके साथ अपने आप आ जाएगा)
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends ffmpeg ffprobe git && \
+    apt-get install -y --no-install-recommends ffmpeg git && \
     rm -rf /var/lib/apt/lists/*
 
-# 5. आपकी भेजी हुई सभी फाइलें (main.py, handlers.py, utils.py आदि) कॉपी करना
+# 5. आपके प्रोजेक्ट का सारा कोड कॉपी करना
 COPY . .
 
-# 6. बॉट को चालू करने की सही कमांड (main.py के हिसाब से)
+# 6. बॉट को शुरू करने की मुख्य कमांड
 CMD ["python3", "main.py"]
