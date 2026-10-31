@@ -42,9 +42,6 @@ http://223.25.71.211:5001/live/key/1226
 #EXTINF:-1 tvg-id="1373" tvg-name="Disney Channel" tvg-logo="http://223.25.71.211:5001/jtvimage/Disney_Channel.png" tvg-language="Hindi" group-title="Kids",Disney Channel
 #EXTGRP:Kids
 http://223.25.71.211:5001/live/key/1373
-#EXTINF:-1 tvg-id="1374" tvg-name="Disney Junior" tvg-logo="http://223.25.71.211:5001/jtvimage/Disney_Junior.png" tvg-language="English" group-title="Kids" catchup-days="6 Days",Disney Junior
-#EXTGRP:Kids
-http://223.25.71.211:5001/live/key/1374
 #EXTINF:-1 tvg-id="1375" tvg-name="Disney International HD" tvg-logo="http://223.25.71.211:5001/jtvimage/Disney_International_HD.png" tvg-language="English" group-title="Kids",Disney International HD
 #EXTGRP:Kids
 http://223.25.71.211:5001/live/key/1375
