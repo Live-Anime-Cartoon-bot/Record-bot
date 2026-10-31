@@ -46,9 +46,6 @@ http://223.25.71.211:5001/live/key/1375
 #EXTINF:-1 tvg-id="1391" tvg-name="Hungama" tvg-logo="http://223.25.71.211:5001/jtvimage/Hungama.png" tvg-language="Hindi" group-title="Kids",Hungama
 #EXTGRP:Kids
 http://223.25.71.211:5001/live/key/1391
-#EXTINF:-1 tvg-id="1392" tvg-name="Super Hungama" tvg-logo="http://223.25.71.211:5001/jtvimage/Super_Hungama.png" tvg-language="Hindi" group-title="Kids",Super Hungama
-#EXTGRP:Kids
-http://223.25.71.211:5001/live/key/1392
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #EXTINF:-1 tvg-id="1780" tvg-name="HooplaKidz TV" tvg-logo="http://223.25.71.211:5001/jtvimage/Hoopla_Kids_TV.png" tvg-language="English" group-title="Kids",HooplaKidz TV
 #EXTGRP:Kids
