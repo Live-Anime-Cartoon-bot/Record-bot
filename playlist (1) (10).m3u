@@ -33,9 +33,6 @@ http://223.25.71.211:5001/live/key/815
 #EXTINF:-1 tvg-id="816" tvg-name="Cartoon Network Hindi" tvg-logo="http://223.25.71.211:5001/jtvimage/CNHindi1.png" tvg-language="Hindi" group-title="Kids",Cartoon Network Hindi
 #EXTGRP:Kids
 http://223.25.71.211:5001/live/key/816
-#EXTINF:-1 tvg-id="872" tvg-name="Sony Yay Hindi" tvg-logo="http://223.25.71.211:5001/jtvimage/SonyYAYHin.png" tvg-language="Hindi" group-title="Kids",Sony Yay Hindi
-#EXTGRP:Kids
-http://223.25.71.211:5001/live/key/872
 #EXTINF:-1 tvg-id="1226" tvg-name="Nick HD+" tvg-logo="http://223.25.71.211:5001/jtvimage/Nick_HD_Plus.png" tvg-language="English" group-title="Kids",Nick HD+
 #EXTGRP:Kids
 http://223.25.71.211:5001/live/key/1226
